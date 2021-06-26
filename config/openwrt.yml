@@ -1,1 +1,28 @@
+- dc: tp.ittps.ru
+- ip: 188.187.122.114
+- interfaces: 
+  - ppoe: 
+    user: ittps
+    pass: ${github.secrets.PPOE_PASSWORD}
+- config: "config"
+
 # domru ppoe
+
+
+
+# openvpn server (10.8.0.0/24)
+
+
+# firewall uci
+
+
+# samba
+
+# github sync 
+
+
+
+# zabbix
+zabbix: 
+  - server: zabbix
+
